@@ -18,7 +18,7 @@
 - Self-explanatory names; booleans as `is/has/can`, function names as verbs, constants in SCREAMING_SNAKE_CASE. Name by business meaning, not implementation detail.
 - Comments only when they explain "why"; do not restate the code.
 - Avoid magic numbers/strings/hardcoded thresholds; extract to config and read through one source.
-- Commit message: concise Chinese, first line <= 50 chars, format `type: summary`; one commit per logical change.
+- Commit message: follow the repository's own convention (e.g. conventional commits, language, commitlint) — do not impose a personal language/style. One commit per logical change.
 - Before push: pull/sync remote; have another agent review for secrets/dangerous instructions and show the user the prompt for approval; branch name `type/scope`.
 - Any git operation: run `git status` first; prefer reversible operations over destructive ones; check upstream sync before committing in a fork.
 
