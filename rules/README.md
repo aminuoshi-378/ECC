@@ -15,6 +15,7 @@ rules/
 │   ├── hooks.md
 │   ├── agents.md
 │   └── security.md
+│   └── personal-workflow.md  # User-owned cross-project conventions
 ├── typescript/      # TypeScript/JavaScript specific
 ├── angular/         # Angular specific
 ├── vue/             # Vue 3 specific

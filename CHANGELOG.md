@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+### Added
+
+- `rules/common/personal-workflow.md` — user-owned cross-project conventions (task execution, commits, communication, security & boundaries, documentation, token control, Windows notes).
+- `rules/java/security-checklist.md` — Java backend checklist from 蚂蚁军规 V2.0 (money precision, lock-check-update, bounded thread pools, ThreadLocal remove, SQL parameterization, deserialization whitelist, authz checks, async exception handling, no empty catch, no duplicate parent/child fields).
+
 ## 2.2.0 - 2026-08-25
 
 ### Added
